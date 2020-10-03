@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="29"
+    android:compileSdkVersionCodename="10"
+    package="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites"
+    platformBuildVersionCode="29"
+    platformBuildVersionName="10">
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:theme="@ref/0x7f09000b"
+        android:label="All about NASA satellites"
+        android:icon="@ref/0x7f030000"
+        android:name="com.google.appinventor.components.runtime.multidex.MultiDexApplication"
+        android:debuggable="false"
+        android:networkSecurityConfig="@ref/0x7f060000"
+        android:roundIcon="@ref/0x7f030000"
+        android:requestLegacyExternalStorage="true">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".Screen1"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen4"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen7"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen8"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen14"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen3"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen12"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen16"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen2"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Intro"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen13"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen15"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.Screen10"
+            android:configChanges="0xdb0"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="appinventor.ai_yassin_haitham2008.All_about_NASA_satellites.provider"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@ref/0x7f060001" />
+        </provider>
+    </application>
+</manifest>
